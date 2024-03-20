@@ -207,7 +207,7 @@
 .main-timeline::after {
     content: "";
     position: absolute;
-    width: 6px;    
+    width: 6px;
     background-image: url(../images/Line1.png);
     background-position: center;
     /* background-repeat: no-repeat; */
@@ -301,17 +301,28 @@
 }
 
 
-.max-w-404{
+.max-w-404 {
     max-width: 404.58px;
 }
-.pb-146{
+
+.pb-146 {
     padding-bottom: 146px;
 }
-.pb-212{
+
+.pb-212 {
     padding-bottom: 212px;
 }
-.py-timeline{
+
+.py-timeline {
     padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.max-786 {
+    max-width: 786px;
+}
+
+.pb-110 {
     padding-bottom: 40px;
 }
 
@@ -322,13 +333,67 @@
 
 
 
+/* accordian/////// */
+.accordion-button {
+    background-color: var(--lightblue);
+    border-radius: 150px !important;
+
+}
+
+.accordion-item {
+    background: transparent;
+}
+
+.accord {
+    max-width: 830px;
+
+}
+
+.accordion-button::after {
+    background-image: url(../svg/down.svg);
+    transform: scale(.7) !important;
+
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url(../svg/up.svg);
+}
+
+.accordion-body {
+    padding: 20px 0px 20px 30px;
+}
+
+.accordion-button:not(.collapsed) {
+    color: var(--white);
+    background-color: var(--lightblue);
+    box-shadow:none;
+}
+
+.accordion{
+    --bs-accordion-btn-focus-box-shadow: none !important;
+    --bs-accordion-border-width: none;
+}
+.pt-20{
+    padding-top: 20px;
+}
+.py-accordian{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.accordion-button{
+    padding: 15px 15px 15px 15px;
+}
+
 @media (min-width:769px) {
-    .text_1{
+    .text_1 {
         text-align: right !important;
     }
 }
 
 @media (min-width:768px) {
+    .accordion-button{
+        padding: 20px 33px 20px 32px;
+    }
     .py-sec-1 {
         padding-top: 26px;
         padding-bottom: 138px;
@@ -337,10 +402,18 @@
     .pb-131 {
         padding-bottom: 131px;
     }
-   
-    .py-timeline{
+
+    .py-timeline {
         padding-top: 63px;
         padding-bottom: 141px;
+    }
+
+    .pb-110 {
+        padding-bottom: 110px;
+    }
+    .py-accordian{
+        padding-top: 47px;
+        padding-bottom: 121px;
     }
 }
 
@@ -418,7 +491,7 @@
         transition: 300ms linear;
     }
 
-    
+
 
     .gap-80 {
         gap: 30px;

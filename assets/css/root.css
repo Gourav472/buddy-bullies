@@ -3,10 +3,10 @@
         --fs-21: 21.74px;
         --fs-18: 18px;
         --fs-70: 35px !important;
-        --fs-20: 20px;
+        --fs-20: 18px !important;
         --fs-25: 25px;
         --fs-50: 38px !important;
-        --fs-30: 26px !important;
+        --fs-30: 24px !important;
         --fs-16: 16px;
         --fs-24: 24px;
         --fs-14: 14px;
@@ -20,7 +20,7 @@
         --line-21: 21.76px;
         --line-24: 24px;
         --line-30: 30.15px;
-        --line-45: 45px;
+        --line-45: 40px !important;
         --line-29: 29.2px;
         --line-25: 24.38px;
         --line-19: 19.5px;
