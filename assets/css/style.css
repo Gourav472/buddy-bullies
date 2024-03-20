@@ -366,24 +366,84 @@
 .accordion-button:not(.collapsed) {
     color: var(--white);
     background-color: var(--lightblue);
-    box-shadow:none;
+    box-shadow: none;
 }
 
-.accordion{
+.accordion {
     --bs-accordion-btn-focus-box-shadow: none !important;
     --bs-accordion-border-width: none;
 }
-.pt-20{
+
+.pt-20 {
     padding-top: 20px;
 }
-.py-accordian{
+
+.py-accordian {
     padding-top: 40px;
     padding-bottom: 40px;
 }
-.accordion-button{
+
+.accordion-button {
     padding: 15px 15px 15px 15px;
 }
 
+.max-h-w {
+    max-width: 312px;
+    max-height: 312px;
+}
+
+.pt-32 {
+    padding-top: 32px;
+}
+
+.pt_2 {
+    padding-top: 2px;
+}
+
+.pb-42 {
+    padding-bottom: 42px;
+}
+
+.footer_bg {
+    /* background-image: url(../images/footer.png); */
+    background-image: url(../images/footer.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.bg-footer-color {
+    background-color: var(--blue);
+}
+
+.pt-179 {
+    padding-top: 50px;
+}
+
+.max-388 {
+    max-width: 388px;
+    opacity: 60%;
+}
+
+.pt_20 {
+    padding-top: 20px;
+}
+.py-footer{
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+.pt-10{
+    padding-top: 10px;
+}
+.pt_6{
+    padding-top: 6px;
+}
+.gap21{
+    gap: 21px;
+}
+.gap-12{
+    gap: 12px;
+}
 @media (min-width:769px) {
     .text_1 {
         text-align: right !important;
@@ -391,9 +451,10 @@
 }
 
 @media (min-width:768px) {
-    .accordion-button{
+    .accordion-button {
         padding: 20px 33px 20px 32px;
     }
+
     .py-sec-1 {
         padding-top: 26px;
         padding-bottom: 138px;
@@ -411,17 +472,19 @@
     .pb-110 {
         padding-bottom: 110px;
     }
-    .py-accordian{
+
+    .py-accordian {
         padding-top: 47px;
         padding-bottom: 121px;
     }
+    .pt-179 {
+        padding-top: 179px;
+    }
+    .py-footer{
+        padding-top: 164px;
+        padding-bottom: 56px;
+    }
 }
-
-@media (min-width:992px) {}
-
-@media (min-width:1200px) {}
-
-@media (min-width:1400px) {}
 
 @media (max-width:991px) {
     .mobile_view {
