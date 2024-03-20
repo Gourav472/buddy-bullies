@@ -1,0 +1,214 @@
+@media (max-width:768px) {
+    :root {
+        --fs-21: 21.74px;
+        --fs-18: 18px;
+        --fs-70: 35px !important;
+        --fs-20: 20px;
+        --fs-25: 25px;
+        --fs-50: 38px !important;
+        --fs-30: 26px !important;
+        --fs-16: 16px;
+        --fs-24: 24px;
+        --fs-14: 14px;
+        --line-32: 32.62px;
+        --line-27: 27px;
+        --line-86: 48px !important;
+        --line-41: 41px;
+        --line-37: 37.5px;
+        --line-68: 45px !important;
+        --line-40: 40.8px;
+        --line-21: 21.76px;
+        --line-24: 24px;
+        --line-30: 30.15px;
+        --line-45: 45px;
+        --line-29: 29.2px;
+        --line-25: 24.38px;
+        --line-19: 19.5px;
+        --line-62: 62px;
+        --line-37: 37.2px;
+    }
+}
+
+:root {
+    /* font-size */
+    --fs-21: 21.74px;
+    --fs-18: 18px;
+    --fs-70: 70px;
+    --fs-20: 20px;
+    --fs-25: 25px;
+
+    --fs-50: 50px;
+    --fs-30: 30px;
+    --fs-16: 16px;
+    --fs-24: 24px;
+    --fs-14: 14px;
+
+    /* font-weight */
+    --fw-600: 600;
+    --fw-400: 400;
+    --fw-500: 500;
+    --fw-700: 700;
+
+    /* line-height */
+    --line-32: 32.62px;
+    --line-27: 27px;
+    --line-86: 86.8px;
+    --line-41: 41px;
+    --line-37: 37.5px;
+    --line-68: 68px;
+    --line-40: 40.8px;
+    --line-21: 21.76px;
+    --line-24: 24px;
+    --line-30: 30.15px;
+    --line-45: 45px;
+    --line-29: 29.2px;
+    --line-25: 24.38px;
+    --line-19: 19.5px;
+    --line-62: 62px;
+    --line-37: 37.2px;
+
+    /* color */
+
+    --black: #000000;
+    --white: #FFFFFF;
+    --blue: #000A1A;
+    --lightblue: #031227;
+    --blue2: #009DFF;
+
+}
+
+.black {
+    color: var(--black);
+}
+
+.white {
+    color: var(--white);
+}
+
+.blue {
+    color: var(--blue);
+}
+
+.lightblue {
+    color: var(--lightblue);
+}
+
+.fs-21 {
+    font-size: var(--fs-21);
+}
+
+.fs-18 {
+    font-size: var(--fs-18);
+}
+
+.fs-70 {
+    font-size: var(--fs-70);
+}
+
+.fs-20 {
+    font-size: var(--fs-20);
+}
+
+.fs-25 {
+    font-size: var(--fs-25);
+}
+
+.fs-50 {
+    font-size: var(--fs-50);
+}
+
+.fs-30 {
+    font-size: var(--fs-30);
+}
+
+.fs-24 {
+    font-size: var(--fs-24);
+}
+
+.fs-16 {
+    font-size: var(--fs-16);
+}
+
+.fs-14 {
+    font-size: var(--fs-14);
+}
+
+.line-32 {
+    line-height: var(--line-32);
+}
+
+.line-27 {
+    line-height: var(--line-27);
+}
+
+.line-86 {
+    line-height: var(--line-86);
+}
+
+.line-41 {
+    line-height: var(--line-41);
+}
+
+.line-37 {
+    line-height: var(--line-37);
+}
+
+.line-68 {
+    line-height: var(--line-68);
+}
+
+.line-40 {
+    line-height: var(--line-40);
+}
+
+.line-21 {
+    line-height: var(--line-21);
+}
+
+.line-24 {
+    line-height: var(--line-24);
+}
+
+.line-30 {
+    line-height: var(--line-30);
+}
+
+.line-45 {
+    line-height: var(--line-45);
+}
+
+.line-29 {
+    line-height: var(--line-29);
+}
+
+.line-25 {
+    line-height: var(--line-25);
+}
+
+.line-19 {
+    line-height: var(--line-19);
+}
+
+.line-62 {
+    line-height: var(--line-62);
+}
+
+.line-37 {
+    line-height: var(--line-37);
+}
+
+.fw-400 {
+    font-weight: var(--fw-400);
+}
+
+.fw-500 {
+    font-weight: var(--fw-500);
+}
+
+.fw-600 {
+    font-weight: var(--fw-600);
+}
+
+.fw-700 {
+    font-weight: var(--fw-700);
+}
