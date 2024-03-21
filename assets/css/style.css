@@ -442,6 +442,7 @@
 }
 
 .accordion-button::after {
+    margin-top: 10px;
     background-image: url(../svg/down.svg);
     transform: scale(.7) !important;
 
