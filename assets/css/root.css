@@ -75,9 +75,15 @@
     --lightblue: #031227;
     --blue2: #009DFF;
     --grey: #001931;
+    --bluelight: #009DFF;
 
 }
-.grey{
+
+.bluelight {
+    color: var(--bluelight);
+}
+
+.grey {
     color: var(--grey);
 }
 
