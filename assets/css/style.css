@@ -635,7 +635,7 @@
     }
 
     .menu {
-        z-index: 60;
+        z-index: 100;
     }
 
     .overflow_hidden {
