@@ -682,7 +682,7 @@
     }
 
     .cross span:nth-child(3) {
-        transform: rotate(-43deg) translateY(-15px);
+        transform: rotate(-43deg) translateY(-17px);
         transition: 300ms linear;
     }
 
